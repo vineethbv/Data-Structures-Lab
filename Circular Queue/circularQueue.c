@@ -93,11 +93,11 @@ void display()
     }
     else
     {
-        printf("\n Queue contents:\n");
+        printf("\nQueue contents:\n");
         i=front;
         do
         {
-           printf("%d",queue[i]); 
+           printf("%d\t",queue[i]); 
            if(i==rear)
                break;
            i=(i+1)%MAX;
